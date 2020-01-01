@@ -1,0 +1,140 @@
+/* Main color, font, style properties */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h4, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p, a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+footer {
+    background-color: #666666;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+}
+
+
+/* Header work */
+#header-name {
+    position: relative;
+    float: left;
+    color: white;
+    background-color: teal;
+    left: 13%;
+    padding: 21px;
+}
+
+a {
+    float: left;
+    position: relative;
+    left: 40%;
+    margin-top: 29px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#about, #portfolio {
+    border-right: 1px solid #cccccc;
+}
+
+header {
+    border-bottom: 2px solid #cccccc;
+}
+
+
+/* Main Content Work */
+.content {
+    background-image: url("../images/5-dots.png");
+    position: relative;
+    width: 100%;
+    height: 804px;
+}
+
+.main-content {
+    /* Centering info box */
+    background-color: #ffffff;
+    width: 960px;
+    height: 550px;
+    position: relative;
+    top: 50px;
+    left: 480px;
+    margin-bottom: 200px;
+}
+
+#contact-header {
+    color: teal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.adjustments {
+    margin-left: 20px;
+}
+
+#name-header, #name, #email-header, #email, #message-header, #text-area {
+    color: grey;
+}
+
+#name, #email, #text-area {
+    margin-bottom: 15px;
+}
+
+#submit {
+    color: white;
+    background-color: teal;
+    padding: 10px 30px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#name, #email {
+    padding-right: 745px;
+}
+
+#text-area {
+    padding-right: 548px;
+    padding-bottom: 140px;
+}
+
+
+/* Footer Work */
+footer {
+    height: 55px;
+    border-top: 5px solid teal;
+    position: absolute;
+}
+
+#copyright {
+    color: lightgray;
+    position: relative;
+    top: calc(100% - 14px);
+    left: 50%;
+}
+
+
+/* Extra Styling */
+header, body, footer {
+    width: 100%;
+    /* Stops horizontal scroll bar from showing */
+    overflow-x: hidden;
+}
