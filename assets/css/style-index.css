@@ -16,6 +16,7 @@ p, a {
 header {
     background-color: #ffffff;
     height: 80px;
+    position: relative;
 }
 
 footer {
@@ -34,19 +35,23 @@ footer {
     float: left;
     color: white;
     background-color: teal;
-    left: 13%;
     padding: 21px;
+    margin-left: 60px;
 }
 
 a {
     float: left;
     position: relative;
-    left: 40%;
     margin-top: 29px;
     padding-right: 25px;
     padding-left: 25px;
     text-decoration: none;
     font-size: 16px;
+}
+
+.header-anchors {
+    position: absolute;
+    right: 2%;
 }
 
 #about, #portfolio {
@@ -55,6 +60,7 @@ a {
 
 header {
     border-bottom: 2px solid #cccccc;
+    overflow-y: hidden;
 }
 
 
@@ -134,4 +140,52 @@ header, body, footer {
     width: 100%;
     /* Stops horizontal scroll bar from showing */
     overflow-x: hidden;
+}
+
+/* Media Queries */
+@media (max-width: 980px){
+    #header-name{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    #header-name {
+        margin-left: 12px;
+    }
+
+    .header-anchors {
+        right: 0%;
+    }
+}
+
+@media (max-width: 640px){
+    header {
+        border: 0px;
+        height: 140px;
+        text-align: center;
+    }
+
+    #header-name {
+        width: 100%;
+        margin: 0px;
+        position: static;
+    }
+
+    .header-anchors {
+        border-bottom: 2px solid #cccccc;
+        position: static;
+        display: inline-block;
+        padding-top: 20px;
+        height: 38px;
+        width: 100%;
+    }
+
+    #about, #portfolio {
+        border-right: 0px solid #cccccc;
+    }
+
+    #about, #portfolio, #contact {
+        margin: 0px;
+    }
 }
