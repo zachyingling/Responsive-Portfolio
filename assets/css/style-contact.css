@@ -34,14 +34,12 @@ footer {
     float: left;
     color: white;
     background-color: teal;
-    left: 13%;
+    left: 5%;
     padding: 21px;
 }
 
 a {
-    float: left;
     position: relative;
-    left: 40%;
     margin-top: 29px;
     padding-right: 25px;
     padding-left: 25px;
@@ -55,6 +53,14 @@ a {
 
 header {
     border-bottom: 2px solid #cccccc;
+    overflow-y: hidden;
+}
+
+
+/* Assigning anchor tags to right of navbar */
+.header-anchors {
+    float: right;
+    margin-top: 31px;
 }
 
 
@@ -69,11 +75,11 @@ header {
 .main-content {
     /* Centering info box */
     background-color: #ffffff;
-    width: 960px;
+    width: 90%;
     height: 550px;
     position: relative;
     top: 50px;
-    left: 480px;
+    left: 5%;
     margin-bottom: 200px;
 }
 
@@ -107,13 +113,9 @@ header {
     font-size: 16px;
 }
 
-#name, #email {
-    padding-right: 745px;
-}
-
-#text-area {
-    padding-right: 548px;
-    padding-bottom: 140px;
+#name, #email, #text-area {
+    position: relative;
+    width: 92%;
 }
 
 
@@ -137,4 +139,48 @@ header, body, footer {
     width: 100%;
     /* Stops horizontal scroll bar from showing */
     overflow-x: hidden;
+}
+
+
+/* Media Queries */
+@media (max-width: 668px){
+    a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 640px){
+/* Header work */
+    header {
+        border: 0px;
+        height: 140px;
+        text-align: center;
+    }
+
+    #header-name {
+        width: 100%;
+        margin: 0px;
+        position: static;
+    }
+
+    .header-anchors {
+        margin-top: 0px;
+        border-bottom: 2px solid #cccccc;
+        position: relative;
+        display: inline-block;
+        padding-top: 20px;
+        height: 38px;
+        width: 100%;
+        margin-left: 28%;
+    }
+
+    #about, #portfolio {
+        border-right: 0px solid #cccccc;
+    }
+
+    #about, #portfolio, #contact {
+        margin: 0px;
+        font-size: 14px;
+    }
 }
