@@ -34,15 +34,14 @@ footer {
     float: left;
     color: white;
     background-color: teal;
-    left: 13%;
+    left: 5%;
     padding: 21px;
 }
 
 a {
     float: left;
     position: relative;
-    left: 40%;
-    margin-top: 29px;
+    left: 0%;
     padding-right: 25px;
     padding-left: 25px;
     text-decoration: none;
@@ -55,6 +54,12 @@ a {
 
 header {
     border-bottom: 2px solid #cccccc;
+}
+
+/* Assigning anchor tags to right of navbar */
+.header-anchors {
+    float: right;
+    margin-top: 31px;
 }
 
 
@@ -165,4 +170,45 @@ header, body, footer {
     width: 100%;
     /* Stops horizontal scroll bar from showing */
     overflow-x: hidden;
+}
+
+
+/* Media Queries */
+@media (max-width: 640px){
+    /* Header work */
+        header {
+            border: 0px;
+            height: 140px;
+            text-align: center;
+        }
+    
+        #header-name {
+            width: 100%;
+            margin: 0px;
+            position: static;
+        }
+    
+        .header-anchors {
+            margin-top: 0px;
+            border-bottom: 2px solid #cccccc;
+            position: relative;
+            padding-top: 20px;
+            height: 38px;
+            width: 100%;
+        }
+    
+        #about, #portfolio {
+            border-right: 0px solid #cccccc;
+        }
+        
+        #about, #portfolio, #contact {
+            margin: 0px auto;
+            font-size: 14px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        #about {
+            padding-left: calc(50% - 127.5px);
+        }
 }
