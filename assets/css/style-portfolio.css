@@ -74,11 +74,12 @@ header {
 .main-content {
     /* Centering info box */
     background-color: #ffffff;
-    width: 960px;
+    width: 90%;
     height: 1000px;
     position: relative;
     top: 50px;
-    left: 480px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #portfolio-header {
@@ -174,6 +175,59 @@ header, body, footer {
 
 
 /* Media Queries */
+@media (max-width: 799px) {
+    .content {
+        height: 1800px;
+    }
+
+    .main-content {
+        height: 1650px;
+    }
+
+    .weightlifting, .video-games, .computer, .family, .friends {
+        display: block;
+        float: left;
+        width: 100%;
+    }
+
+    /* Fitting the h2's size relative to the image */
+    .weightlifting h2, .video-games h2, .computer h2, .family h2, .friends h2 {
+        left: 0px;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 300px;
+        text-align: center;
+        clear: both;
+        margin-left: calc(50% - 150px);
+    }
+
+    .weightlifting img, .video-games img, .computer img, .family img, .friends img {
+        /* centering image */
+        margin-left: calc(50% - 150px);
+    }
+
+    .weightlifting h2 {
+        top: 250px;
+    }
+
+    .video-games h2 {
+        top: 550px;
+    }
+
+    .computer h2 {
+        top: 850px;
+    }
+
+    .family h2 {
+        top: 1150px
+    }
+
+    .friends h2 {
+        top: 1450px
+    }
+}
+
 @media (max-width: 640px){
     /* Header work */
         header {
@@ -200,7 +254,7 @@ header, body, footer {
         #about, #portfolio {
             border-right: 0px solid #cccccc;
         }
-        
+
         #about, #portfolio, #contact {
             margin: 0px auto;
             font-size: 14px;
