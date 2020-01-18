@@ -1,268 +1,287 @@
 /* Main color, font, style properties */
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1, h4, h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1,
+h4,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-p, a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+p,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 header {
-    background-color: #ffffff;
-    height: 80px;
+  background-color: #ffffff;
+  height: 80px;
 }
 
 footer {
-    background-color: #666666;
+  background-color: #666666;
 }
 
 .main-content {
-    background-color: #ffffff;
-    border: 2px solid #cccccc;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
 }
-
 
 /* Header work */
 #header-name {
-    position: relative;
-    float: left;
-    color: white;
-    background-color: teal;
-    left: 5%;
-    padding: 21px;
+  position: relative;
+  float: left;
+  color: white;
+  background-color: teal;
+  left: 5%;
+  padding: 21px;
 }
 
-a {
-    float: left;
-    position: relative;
-    left: 0%;
-    padding-right: 25px;
-    padding-left: 25px;
-    text-decoration: none;
-    font-size: 16px;
+.header-anchors a {
+  float: left;
+  position: relative;
+  left: 0%;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
-#about, #portfolio {
-    border-right: 1px solid #cccccc;
+#about,
+#portfolio {
+  border-right: 1px solid #cccccc;
 }
 
 header {
-    border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
 }
 
 /* Assigning anchor tags to right of navbar */
 .header-anchors {
-    float: right;
-    margin-top: 31px;
+  float: right;
+  margin-top: 31px;
 }
-
 
 /* Main content work */
 .content {
-    background-image: url("../images/5-dots.png");
-    position: relative;
-    width: 100%;
-    height: 1150px;
+  background-image: url("../images/5-dots.png");
+  position: relative;
+  width: 100%;
+  height: 1150px;
 }
 
 .main-content {
-    /* Centering info box */
-    background-color: #ffffff;
-    width: 90%;
-    height: 1000px;
-    position: relative;
-    top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+  /* Centering info box */
+  background-color: #ffffff;
+  width: 90%;
+  height: 1000px;
+  position: relative;
+  top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #portfolio-header {
-    color: teal;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 3px solid #cccccc;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  color: teal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #cccccc;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 img {
-    width: 300px;
-    height: 250px;
-    margin-bottom: 50px;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 50px;
 }
 
-.weightlifting img, .computer img, .friends img {
-    margin-left: 20px;
-    float: left;
-    position: relative;
+.weightlifting img,
+.computer img,
+.friends img {
+  margin-left: 20px;
+  float: left;
+  position: relative;
 }
 
-.video-games img, .family img {
-    display: inline;
-    margin-left: 70px;
-    position: relative;
+.video-games img,
+.family img {
+  display: inline;
+  margin-left: 70px;
+  position: relative;
 }
 
 h2 {
-    position: absolute;
-    background-color: teal;
-    color: white;
+  position: absolute;
+  background-color: teal;
+  color: white;
 }
 
 /* Heading for each h2 element */
 /* Left column */
 .weightlifting h2 {
-    left: 20px;
-    top: 250px;
-    padding: 20px 83px 20px 83px
+  left: 20px;
+  top: 250px;
+  padding: 20px 42px 20px 42px;
 }
 
 .computer h2 {
-    left: 20px;
-    top: 560px;
-    padding: 20px 93.5px 20px 93.5px;
+  left: 20px;
+  top: 560px;
+  padding: 20px 93.5px 20px 93.5px;
 }
 
 .friends h2 {
-    left: 20px;
-    top: 870px;
-    padding: 20px 110.5px 20px 110.5px;
+  left: 20px;
+  top: 870px;
+  padding: 20px 110.5px 20px 110.5px;
 }
 
 /* Right column */
 .video-games h2 {
-    left: 390px;
-    top: 250px;
-    padding: 20px 83px 20px 83px;
+  left: 390px;
+  top: 250px;
+  padding: 20px 83px 20px 83px;
 }
 
 .family h2 {
-    left: 390px;
-    top: 560px;
-    padding: 20px 114px 20px 114px;
+  left: 390px;
+  top: 560px;
+  padding: 20px 114px 20px 114px;
 }
-
 
 /* Footer Work */
 footer {
-    height: 55px;
-    border-top: 5px solid teal;
-    position: absolute;
-    bottom: 0px;
+  height: 55px;
+  border-top: 5px solid teal;
+  position: absolute;
+  bottom: 0px;
 }
 
 #copyright {
-    color: lightgray;
-    position: relative;
-    top: calc(100% - 14px);
-    left: 50%;
+  color: lightgray;
+  position: relative;
+  top: calc(100% - 14px);
+  left: 50%;
 }
-
 
 /* Extra Styling */
-header, body, footer {
-    width: 100%;
-    /* Stops horizontal scroll bar from showing */
-    overflow-x: hidden;
+header,
+body,
+footer {
+  width: 100%;
+  /* Stops horizontal scroll bar from showing */
+  overflow-x: hidden;
 }
-
 
 /* Media Queries */
 @media (max-width: 799px) {
-    .content {
-        height: 1800px;
-    }
+  .content {
+    height: 1800px;
+  }
 
-    .main-content {
-        height: 1650px;
-    }
+  .main-content {
+    height: 1650px;
+  }
 
-    .weightlifting, .video-games, .computer, .family, .friends {
-        display: block;
-        float: left;
-        width: 100%;
-    }
+  .weightlifting,
+  .video-games,
+  .computer,
+  .family,
+  .friends {
+    display: block;
+    float: left;
+    width: 100%;
+  }
 
-    /* Fitting the h2's size relative to the image */
-    .weightlifting h2, .video-games h2, .computer h2, .family h2, .friends h2 {
-        left: 0px;
-        padding: 0px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 300px;
-        text-align: center;
-        clear: both;
-        margin-left: calc(50% - 150px);
-    }
+  /* Fitting the h2's size relative to the image */
+  .weightlifting h2,
+  .video-games h2,
+  .computer h2,
+  .family h2,
+  .friends h2 {
+    left: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    text-align: center;
+    clear: both;
+    margin-left: calc(50% - 150px);
+  }
 
-    .weightlifting img, .video-games img, .computer img, .family img, .friends img {
-        /* centering image */
-        margin-left: calc(50% - 150px);
-    }
+  .weightlifting img,
+  .video-games img,
+  .computer img,
+  .family img,
+  .friends img {
+    /* centering image */
+    margin-left: calc(50% - 150px);
+  }
 
-    .weightlifting h2 {
-        top: 250px;
-    }
+  .weightlifting h2 {
+    top: 250px;
+  }
 
-    .video-games h2 {
-        top: 550px;
-    }
+  .video-games h2 {
+    top: 550px;
+  }
 
-    .computer h2 {
-        top: 850px;
-    }
+  .computer h2 {
+    top: 850px;
+  }
 
-    .family h2 {
-        top: 1150px
-    }
+  .family h2 {
+    top: 1150px;
+  }
 
-    .friends h2 {
-        top: 1450px
-    }
+  .friends h2 {
+    top: 1450px;
+  }
 }
 
-@media (max-width: 640px){
-    /* Header work */
-        header {
-            border: 0px;
-            height: 140px;
-            text-align: center;
-        }
-    
-        #header-name {
-            width: 100%;
-            margin: 0px;
-            position: static;
-        }
-    
-        .header-anchors {
-            margin-top: 0px;
-            border-bottom: 2px solid #cccccc;
-            position: relative;
-            padding-top: 20px;
-            height: 38px;
-            width: 100%;
-        }
-    
-        #about, #portfolio {
-            border-right: 0px solid #cccccc;
-        }
+@media (max-width: 640px) {
+  /* Header work */
+  header {
+    border: 0px;
+    height: 140px;
+    text-align: center;
+  }
 
-        #about, #portfolio, #contact {
-            margin: 0px auto;
-            font-size: 14px;
-            display: inline-block;
-            text-align: center;
-        }
+  #header-name {
+    width: 100%;
+    margin: 0px;
+    position: static;
+  }
 
-        #about {
-            padding-left: calc(50% - 127.5px);
-        }
+  .header-anchors {
+    margin-top: 0px;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    padding-top: 20px;
+    height: 38px;
+    width: 100%;
+  }
+
+  #about,
+  #portfolio {
+    border-right: 0px solid #cccccc;
+  }
+
+  #about,
+  #portfolio,
+  #contact {
+    margin: 0px auto;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #about {
+    padding-left: calc(50% - 127.5px);
+  }
 }
