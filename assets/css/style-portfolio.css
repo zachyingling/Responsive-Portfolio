@@ -143,9 +143,10 @@ h2 {
 
 /* Right column */
 .video-games h2 {
+  font-size: 20px;
   left: 390px;
   top: 250px;
-  padding: 20px 83px 20px 83px;
+  padding: 20px 70.5px 20px 70.5px;
 }
 
 .family h2 {
