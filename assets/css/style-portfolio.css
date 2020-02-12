@@ -136,9 +136,10 @@ h2 {
 }
 
 .friends h2 {
+  font-size: 1.1rem;
   left: 20px;
   top: 870px;
-  padding: 20px 110.5px 20px 110.5px;
+  padding: 20px 10px 20px 10px;
 }
 
 /* Right column */
